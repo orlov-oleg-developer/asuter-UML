@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T05:47:21.391Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="8AH7Fx61GZA640-YBwtD" version="22.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-06T06:21:52.757Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="cVbt_gZzA7Dd2dx4EcAW" version="22.0.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="База">
-    <mxGraphModel dx="794" dy="1916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -369,12 +369,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MtYbNc2ny1elsL_GUts9" name="Экономика">
-    <mxGraphModel dx="2415" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2868" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CQHj0wkTVcPVt6-Cb0T3-1" value="StateHandler" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="580" y="240" width="160" height="36" as="geometry">
+          <mxGeometry x="840" y="240" width="160" height="36" as="geometry">
             <mxRectangle x="120" y="240" width="560" height="280" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -418,38 +418,146 @@
           <mxGeometry x="280" y="18" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CQHj0wkTVcPVt6-Cb0T3-12" value="EfficiencyComputationMainHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="240" width="560" height="280" as="geometry">
+          <mxGeometry x="40" y="240" width="680" height="1078" as="geometry">
             <mxRectangle x="270" y="270" width="160" height="36" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CQHj0wkTVcPVt6-Cb0T3-13" value="- &lt;&lt;static&gt;&gt; _instance?: EfficiencyComputationMainHandler" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
-          <mxGeometry y="36" width="560" height="24" as="geometry" />
+          <mxGeometry y="36" width="680" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-27" value="readonly capacityHandler = new CapacityParamsStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
-          <mxGeometry y="60" width="560" height="24" as="geometry" />
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-27" value="&lt;&lt;readonly&gt;&gt; capacityHandler = new CapacityParamsStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="60" width="680" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-28" value="readonly capacityHandler = new CapacityParamsStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
-          <mxGeometry y="84" width="560" height="24" as="geometry" />
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-28" value="&lt;&lt;readonly&gt;&gt; parSchHandler = new ParallelScheduleParamsStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="84" width="680" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-29" value="readonly capacityHandler = new CapacityParamsStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
-          <mxGeometry y="108" width="560" height="24" as="geometry" />
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-29" value="- capitalExpendituresHandler = new CapitalExpendituresStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="108" width="680" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-30" value="readonly capacityHandler = new CapacityParamsStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
-          <mxGeometry y="132" width="560" height="24" as="geometry" />
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-30" value="- additionalExpendituresHandler = new AdditionalExpendituresStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="132" width="680" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-31" value="readonly capacityHandler = new CapacityParamsStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
-          <mxGeometry y="156" width="560" height="24" as="geometry" />
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-31" value="- salaryHandler = new StringStateTableHandler(new SalaryRowStateHandler())" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="156" width="680" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-32" value="readonly capacityHandler = new CapacityParamsStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
-          <mxGeometry y="180" width="560" height="24" as="geometry" />
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-32" value="&lt;&lt;readonly&gt;&gt; ratesHandler = new RatesStateHandler()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="180" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-33" value="- nameHandler = new StringStringStateHandler(1, 50, true)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="204" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-34" value="- descriptionHandler = new StringStringStateHandler(0, 50)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="228" width="680" height="24" as="geometry" />
         </mxCell>
         <mxCell id="CQHj0wkTVcPVt6-Cb0T3-14" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
-          <mxGeometry y="204" width="560" height="10" as="geometry" />
+          <mxGeometry y="252" width="680" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-26" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.076;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CQHj0wkTVcPVt6-Cb0T3-12" target="CQHj0wkTVcPVt6-Cb0T3-1">
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-35" value="- constructor()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="262" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-36" value="&lt;&lt;static&gt;&gt; getInstance(): EfficiencyComputationMainHandler" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="286" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-37" value="+ toDto(state: EfficiencyComputationState): EfficiencyComputationDto" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="310" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-38" value="+ fromDto(dto: EfficiencyComputationDto, schemaType: SchemaType): EfficiencyComputationState" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="334" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-39" value="+ validate(tgt: EfficiencyComputationState): Status" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="358" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-40" value="+ createDefault(schemaType: SchemaType): EfficiencyComputationState" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="382" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-41" value="+ logErrors(tgt: EfficiencyComputationState): string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="406" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-42" value="+ powerDiff(tgt: ParallelScheduleParamsState): { abs: string, rel: string }" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="430" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-43" value="+ intervalDiff(tgt: CapacityParamsState): { abs: string, rel: string }" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="454" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-44" value="+ trainQtyDiff(tgt: CapacityParamsState): { abs: string, rel: string }" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="478" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-45" value="+ copy(tgt: EfficiencyComputationState): EfficiencyComputationState" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="502" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-46" value="+ updateName(tgt: EfficiencyComputationState, name: string)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="526" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-47" value="+ updateDescription(tgt: EfficiencyComputationState, description: string)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="550" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-48" value="+ updateTrack(tgt: EfficiencyComputationState, trackParams: TrackParams | null)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="574" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-49" value="+ updateCapacityParams(tgt: EfficiencyComputationState, kwargs: CapacityParamsKwargs)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="598" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-50" value="+ updateParallelScheduleParams(tgt: EfficiencyComputationState, kwargs: ParallelScheduleParamsKwargs)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="622" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-51" value="+ updateCapitalExpendituresRow(tgt: EfficiencyComputationState, idx: number, kwargs: CapitalExpendituresRowKwargs)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="646" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-52" value="+ insertCapitalExpendituresRow(tgt: EfficiencyComputationState, idx: number)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="670" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-53" value="+ deleteCapitalExpendituresRow(tgt: EfficiencyComputationState, idx: number)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="694" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-54" value="+ duplicateCapitalExpendituresRow(tgt: EfficiencyComputationState, idx: number)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="718" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-55" value="+ updateAdditionalExpendituresRow(tgt: EfficiencyComputationState, idx: number, kwargs: AdditionalExpendituresRowKwargs)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="742" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-56" value="+ insertAdditionalExpendituresRow(tgt: EfficiencyComputationState, idx: number)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="766" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-57" value="+ deleteAdditionalExpendituresRow(tgt: EfficiencyComputationState, idx: number)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="790" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-58" value="+ duplicateAdditionalExpendituresRow(tgt: EfficiencyComputationState, idx: number)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="814" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-59" value="+ uniqueEquipmentNames(current: string, arr: CapitalExpendituresRowState[]): string[]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="838" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-60" value="+ insertSalaryRow(tgt: EfficiencyComputationState, idx: number)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="862" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-61" value="+ updateSalaryRow(tgt: EfficiencyComputationState, idx: number, kwargs: SalaryStateKwargs)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="886" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-62" value="+ deleteSalaryRow(tgt: EfficiencyComputationState, idx: number)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="910" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-63" value="+ duplicateSalaryRow(tgt: EfficiencyComputationState, idx: number)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="934" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-64" value="+ updateRates(tgt: EfficiencyComputationState, kwargs: RatesStateKwargs)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="958" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-65" value="+ isFirstPageValid (tgt: EfficiencyComputationState)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="982" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-66" value="+ isSecondPageValid (tgt: EfficiencyComputationState)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="1006" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-67" value="+ isThirdPageValid (tgt: EfficiencyComputationState)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="1030" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-68" value="- checkEquipmentNames(tgt: EfficiencyComputationState, dependentRows: { equipment: StringState }[])" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CQHj0wkTVcPVt6-Cb0T3-12">
+          <mxGeometry y="1054" width="680" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CQHj0wkTVcPVt6-Cb0T3-26" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.004;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CQHj0wkTVcPVt6-Cb0T3-12" target="CQHj0wkTVcPVt6-Cb0T3-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="270" y="530" as="sourcePoint" />
-            <mxPoint x="430" y="530" as="targetPoint" />
+            <mxPoint x="440" y="530" as="sourcePoint" />
+            <mxPoint x="600" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
