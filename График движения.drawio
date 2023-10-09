@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T06:47:20.557Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BYJvC08MGjTInjrUGSKg" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T06:53:08.130Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="II-0Ps0oPyHHEo6ZUOxc" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
-    <mxGraphModel dx="989" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="574" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -24,14 +24,14 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="+ add(layer: Layer, ...rest: any[]): this" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="112" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tBN_TkE7q3TLRMIqNMam-11" value="+ getLayer(): any;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-11" value="+ getLayer(): any" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="138" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tBN_TkE7q3TLRMIqNMam-12" value="+ getLayers(): Layer[];" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-12" value="+ getLayers(): Layer[]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="164" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tBN_TkE7q3TLRMIqNMam-5" value="Konva.Layer" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="280" width="220" height="138" as="geometry">
+          <mxGeometry x="460" y="280" width="220" height="216" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -47,8 +47,17 @@
         <mxCell id="tBN_TkE7q3TLRMIqNMam-9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="tBN_TkE7q3TLRMIqNMam-5">
           <mxGeometry y="104" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="tBN_TkE7q3TLRMIqNMam-10" value="+ add(layer: Layer, ...rest: any[]): this" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tBN_TkE7q3TLRMIqNMam-5">
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-10" value="+ getLayer(): this" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tBN_TkE7q3TLRMIqNMam-5">
           <mxGeometry y="112" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-30" value="+ remove(): this" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tBN_TkE7q3TLRMIqNMam-5">
+          <mxGeometry y="138" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-31" value="+ getStage(): Stage" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tBN_TkE7q3TLRMIqNMam-5">
+          <mxGeometry y="164" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-29" value="+ getCanvas(): SceneCanvas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tBN_TkE7q3TLRMIqNMam-5">
+          <mxGeometry y="190" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tBN_TkE7q3TLRMIqNMam-18" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.013;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tBN_TkE7q3TLRMIqNMam-5" target="tBN_TkE7q3TLRMIqNMam-12">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -56,18 +65,60 @@
             <mxPoint x="400" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tBN_TkE7q3TLRMIqNMam-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--1">
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-20" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="150" as="sourcePoint" />
             <mxPoint x="490" y="210" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="90" y="150" />
+              <mxPoint x="380" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tBN_TkE7q3TLRMIqNMam-21" value="id of &amp;lt;div&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tBN_TkE7q3TLRMIqNMam-20">
           <mxGeometry x="-0.7128" relative="1" as="geometry">
-            <mxPoint x="17" y="-10" as="offset" />
+            <mxPoint x="-13" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-23" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="tBN_TkE7q3TLRMIqNMam-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="310" as="sourcePoint" />
+            <mxPoint x="680" y="319" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-24" value="слой, на котором отображаются элементы" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tBN_TkE7q3TLRMIqNMam-23">
+          <mxGeometry x="-0.7128" relative="1" as="geometry">
+            <mxPoint x="-67" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-25" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="tBN_TkE7q3TLRMIqNMam-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="340" as="sourcePoint" />
+            <mxPoint x="680" y="339" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-26" value="скрытый слой, используется для events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tBN_TkE7q3TLRMIqNMam-25">
+          <mxGeometry x="-0.7128" relative="1" as="geometry">
+            <mxPoint x="-67" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-33" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="230" as="sourcePoint" />
+            <mxPoint x="390" y="239" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tBN_TkE7q3TLRMIqNMam-34" value="добавить новый слой на сцену" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tBN_TkE7q3TLRMIqNMam-33">
+          <mxGeometry x="-0.7128" relative="1" as="geometry">
+            <mxPoint x="-141" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
