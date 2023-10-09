@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T14:54:14.855Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Sl7MX-m2shPOITjcjipQ" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-09T14:55:06.669Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="z1bEjeuqy3rdtwOTYGQj" version="22.0.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="934" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,12 +159,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ErBMEQlziuUbaQD5Bi66" name="Base">
-    <mxGraphModel dx="548" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iOqSDvIkYNA5h_cz3AoK-1" value="Konva.Stage" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="485" y="40" width="160" height="26" as="geometry">
+          <mxGeometry x="520" y="40" width="160" height="26" as="geometry">
             <mxRectangle x="170" y="140" width="220" height="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
