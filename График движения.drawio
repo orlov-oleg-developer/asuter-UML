@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T12:31:53.260Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BBdy8lkfP-LTY9wgsAre" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-10T12:32:21.223Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="87ENrlxHODBj95JmqCCX" version="22.0.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="662" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -930,7 +930,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CqUQJFkqP1_rSqp53F9I" name="Добавление нового рута">
-    <mxGraphModel dx="1734" dy="1279" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1556" dy="1111" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -947,15 +947,6 @@
         </mxCell>
         <mxCell id="KkirB9YplyHkhNLy1HcI-3" value="setNewRoutes(obj)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-540" y="-104" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KkirB9YplyHkhNLy1HcI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkirB9YplyHkhNLy1HcI-5" target="KkirB9YplyHkhNLy1HcI-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KkirB9YplyHkhNLy1HcI-5" value="dispatch(appSetSpinner(id !== -1))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-579" y="-52" width="198" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KkirB9YplyHkhNLy1HcI-6" value="setPrepared(true)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-579" y="-1" width="198" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KkirB9YplyHkhNLy1HcI-7" value="ScheduleAdd.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-332" y="-198" width="120" height="38" as="geometry" />
@@ -989,10 +980,13 @@
           <mxGeometry x="-135" y="16" width="128" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-9" value="RouteStage" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="205" y="-198" width="120" height="38" as="geometry" />
+          <mxGeometry x="135" y="-198" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-10" value="stage.createRoute(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="187" y="16" width="156" height="30" as="geometry" />
+          <mxGeometry x="117" y="16" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KkirB9YplyHkhNLy1HcI-7" target="KkirB9YplyHkhNLy1HcI-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
