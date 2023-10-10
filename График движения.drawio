@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T12:23:04.160Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="gFepAgMy-DUIq0yDM_zQ" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-10T12:28:40.845Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="iqcNckAoy8PcyVlqooe2" version="22.0.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="662" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -930,10 +930,55 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CqUQJFkqP1_rSqp53F9I" name="Добавление нового рута">
-    <mxGraphModel dx="794" dy="747" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1462" dy="1023" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KkirB9YplyHkhNLy1HcI-1" value="AddTable.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="-198" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="l5srXTrqv0sPlsmp6J6j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkirB9YplyHkhNLy1HcI-3" target="l5srXTrqv0sPlsmp6J6j-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5srXTrqv0sPlsmp6J6j-3" value="obj" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l5srXTrqv0sPlsmp6J6j-2">
+          <mxGeometry x="-0.2143" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkirB9YplyHkhNLy1HcI-3" value="setNewRoutes(obj)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="-104" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KkirB9YplyHkhNLy1HcI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkirB9YplyHkhNLy1HcI-5" target="KkirB9YplyHkhNLy1HcI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkirB9YplyHkhNLy1HcI-5" value="dispatch(appSetSpinner(id !== -1))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-579" y="-52" width="198" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KkirB9YplyHkhNLy1HcI-6" value="setPrepared(true)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-579" y="-1" width="198" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KkirB9YplyHkhNLy1HcI-7" value="ScheduleAdd.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-332" y="-198" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l5srXTrqv0sPlsmp6J6j-1" target="MyBfxwaRdr4Ra5bdeJfZ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-71" y="-64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-5" value="newRoutes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MyBfxwaRdr4Ra5bdeJfZ-4">
+          <mxGeometry x="0.081" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5srXTrqv0sPlsmp6J6j-1" value="setNewRoutes(obj)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-332" y="-104" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-1" value="Redactor.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-131" y="-198" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-6" value="if (stage &amp;amp;&amp;amp;&amp;nbsp;newRoutes.length&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;amp;&amp;amp;&amp;nbsp;currentTrack !== -1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;amp;&amp;amp;&amp;nbsp;schedules[currentTrack])" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-198" y="-65" width="254" height="52" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
