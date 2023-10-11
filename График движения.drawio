@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T09:09:50.897Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="miuVdj8-rYzrwl67G3WE" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-11T09:12:15.984Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1w293y0R14Fqg9ADORQg" version="22.0.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="794" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1005,7 +1005,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_zZBoDa46Eo1YFdHau3Y" name="Переключение на другой путь">
-    <mxGraphModel dx="1789" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1995" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1122,15 +1122,15 @@
         <mxCell id="lBUvwqImCgIKe72yLS2N-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-24" target="lBUvwqImCgIKe72yLS2N-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="30" y="525" />
-              <mxPoint x="30" y="550" />
-              <mxPoint x="105" y="550" />
+              <mxPoint x="-70" y="525" />
+              <mxPoint x="-70" y="590" />
+              <mxPoint x="100" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-39" value="тк clearStage() &lt;br&gt;вызывается у UserStage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lBUvwqImCgIKe72yLS2N-38">
           <mxGeometry x="-0.5377" relative="1" as="geometry">
-            <mxPoint x="18" as="offset" />
+            <mxPoint x="10" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-24" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;stage.clearStations()&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1165,13 +1165,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-33" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;this.destroyChildren()&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="460" width="130" height="30" as="geometry" />
+          <mxGeometry x="35" y="460" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-35" target="lBUvwqImCgIKe72yLS2N-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-35" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;очищает все слои&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="510" width="130" height="30" as="geometry" />
+          <mxGeometry x="35" y="506" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-37" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;this.layers.stations = []&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="560" width="130" height="30" as="geometry" />
+          <mxGeometry x="35" y="610" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-40" value="setSelectionSet(selectons)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-760" y="560" width="216" height="30" as="geometry" />
@@ -1183,7 +1186,10 @@
           <mxGeometry x="-450" y="670" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-46" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;this.add(layer)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="670" width="110" height="30" as="geometry" />
+          <mxGeometry x="45" y="670" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-48" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;delete this.layers.objectsLayer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="552" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
