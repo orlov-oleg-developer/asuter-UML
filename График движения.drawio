@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T10:12:23.776Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="EoM7YtAZrtY3mKFzm6N2" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-11T10:15:52.361Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="jbdDtM2uIko6-JECgVjo" version="22.0.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="794" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1005,7 +1005,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_zZBoDa46Eo1YFdHau3Y" name="Переключение на другой путь">
-    <mxGraphModel dx="3407" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1410" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1272,7 +1272,7 @@
         <mxCell id="lBUvwqImCgIKe72yLS2N-78" value="const routes = actualSchedules[currentTrack].schedule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-490" y="1120" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lBUvwqImCgIKe72yLS2N-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-82" target="lBUvwqImCgIKe72yLS2N-84">
+        <mxCell id="lBUvwqImCgIKe72yLS2N-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-82" target="lBUvwqImCgIKe72yLS2N-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-82" value="подготовка информации для создания Routes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1282,10 +1282,32 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-84" value="stage.createRoute(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="1240" width="140" height="30" as="geometry" />
+          <mxGeometry x="-534" y="1380" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-86" target="lBUvwqImCgIKe72yLS2N-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-39" y="1360" />
+              <mxPoint x="-330" y="1360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-86" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;newRoute.render()&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1240" width="130" height="30" as="geometry" />
+          <mxGeometry x="-104" y="1380" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-88" target="lBUvwqImCgIKe72yLS2N-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-88" value="let route of routes" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="1250" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-93" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="1275" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
