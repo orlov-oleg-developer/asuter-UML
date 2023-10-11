@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T08:54:11.986Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="FY4_U33VDnIHkfatmeFz" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-11T09:00:23.839Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YrxN7qRK0vjVoZOWTDYM" version="22.0.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="794" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1005,7 +1005,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_zZBoDa46Eo1YFdHau3Y" name="Переключение на другой путь">
-    <mxGraphModel dx="1756" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1947" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1089,8 +1089,32 @@
         <mxCell id="lBUvwqImCgIKe72yLS2N-14" value="schedulesErrors[prevTrack.current] = errors" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-494" y="337" width="264" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lBUvwqImCgIKe72yLS2N-16" value="schedulesErrors[prevTrack.current] = errors" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-332" y="400" width="264" height="30" as="geometry" />
+        <mxCell id="lBUvwqImCgIKe72yLS2N-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-16" target="lBUvwqImCgIKe72yLS2N-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-16" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;prevTrack.current = currentTrack&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="400" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-20" value="const prevTrack = useRef(currentTrack)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-21" value="const actualSchedules = useRef&amp;lt;tActualSchedule[]&amp;gt;([])" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="289" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-22" target="lBUvwqImCgIKe72yLS2N-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-22" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;stage.clearStage()&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lBUvwqImCgIKe72yLS2N-24" target="lBUvwqImCgIKe72yLS2N-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-24" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;stage.clearStations()&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-25" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;stage.setSelectionSet()&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="560" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
