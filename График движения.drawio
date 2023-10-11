@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T09:45:28.991Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="8aXELgnjfgDdfuIcHmHK" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-11T09:49:54.990Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="jSskC1xdcSulGQOYMILY" version="22.0.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="794" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1005,7 +1005,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_zZBoDa46Eo1YFdHau3Y" name="Переключение на другой путь">
-    <mxGraphModel dx="1824" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3190" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1229,6 +1229,24 @@
         </mxCell>
         <mxCell id="lBUvwqImCgIKe72yLS2N-68" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;this.stations&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="45" y="984" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-72" value="1. Обновление данных под выбранный участок&lt;br&gt;2. Очищение и пересборка всех слоев сцены" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="-781" y="230" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-73" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-781" y="276" as="sourcePoint" />
+            <mxPoint x="-471" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-74" value="Заполнение слоёв сцены информацией и элементами" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="-770" y="839.17" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBUvwqImCgIKe72yLS2N-75" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-770" y="879.17" as="sourcePoint" />
+            <mxPoint x="-440" y="879" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
