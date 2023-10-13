@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T05:56:18.666Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Qig3x1gYPPccPWUT0CCS" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T06:35:32.675Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="g1Nbhs2f2GJJB9TdJTRl" version="22.0.4" type="github">
   <diagram name="Plotly" id="S_bzS8s4k4nJKGlNznGW">
-    <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="548" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7JA5W__535i6y169U8hf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#007FFF;dashed=1;curved=1;" edge="1" parent="1" source="7JA5W__535i6y169U8hf-1" target="7JA5W__535i6y169U8hf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7JA5W__535i6y169U8hf-6" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;fillColor=#dae8fc;dashed=1;" edge="1" parent="1" source="7JA5W__535i6y169U8hf-1" target="7JA5W__535i6y169U8hf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7JA5W__535i6y169U8hf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;fillColor=#dae8fc;dashed=1;curved=1;" edge="1" parent="1" source="7JA5W__535i6y169U8hf-1" target="7JA5W__535i6y169U8hf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7JA5W__535i6y169U8hf-1" value="Plot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7JA5W__535i6y169U8hf-2" value="data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="380" y="185" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7JA5W__535i6y169U8hf-5" value="layout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="380" y="245" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7JA5W__535i6y169U8hf-7" value="config" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="380" y="295" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
