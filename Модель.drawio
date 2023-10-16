@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T13:37:01.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.967 YaBrowser/23.9.1.967 Yowser/2.5 Safari/537.36" etag="XLGEns_yME6xazrtlp5_" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-16T12:51:08.726Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="bxD4Z_mkslqaWyNkIuzo" version="22.0.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="База">
-    <mxGraphModel dx="2049" dy="2299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="2542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -402,7 +402,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MtYbNc2ny1elsL_GUts9" name="Экономика">
-    <mxGraphModel dx="819" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -645,11 +645,6 @@
         <mxCell id="TZ7IFENx-PKf2-4Rdii3-5" value="+ defaultMass(tgt: CapacityParamsState): string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TZ7IFENx-PKf2-4Rdii3-1" vertex="1">
           <mxGeometry y="166" width="540" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TZ7IFENx-PKf2-4Rdii3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CQHj0wkTVcPVt6-Cb0T3-27" target="TZ7IFENx-PKf2-4Rdii3-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="310" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TZ7IFENx-PKf2-4Rdii3-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.998;exitY=0.076;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TZ7IFENx-PKf2-4Rdii3-1" target="1-cCtfcRF_sKIWPpTtW0-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1520" y="320" as="sourcePoint" />
@@ -675,6 +670,9 @@
         </mxCell>
         <mxCell id="1-cCtfcRF_sKIWPpTtW0-6" value="+ validate(tgt: R): Status" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1-cCtfcRF_sKIWPpTtW0-1" vertex="1">
           <mxGeometry y="122" width="490" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="v_DpTirp9kwq6TdLi1lY-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CQHj0wkTVcPVt6-Cb0T3-27" target="TZ7IFENx-PKf2-4Rdii3-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
