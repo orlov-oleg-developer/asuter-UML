@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T13:43:24.426Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Wci_MV0tdAoxfTQ0wYfX" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-16T13:44:29.344Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="6s63sCaoW542J9C5KFbt" version="22.0.4" type="github" pages="4">
   <diagram name="Konva" id="DzUE49n3u63lBh9tNokg">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -707,7 +707,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hGWbqOL3RNJ799x0UaYs" name="Загрузка страницы">
-    <mxGraphModel dx="3088" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3341" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -913,7 +913,7 @@
           <mxGeometry x="270" y="1150" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="nddq3iinZFFJKYQ4YsSp-26" value="Blocks.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="270" y="690" width="120" height="38" as="geometry" />
+          <mxGeometry x="270" y="120" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="XcbdtqsOvUCvEtTxDs71-1" value="this.onSchemaChange = onSchemaChange" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="1240" width="260" height="30" as="geometry" />
