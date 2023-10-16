@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T09:53:40.921Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="xW3dnZErsYHsCOulxpqd" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-16T10:11:30.454Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="nECr_zgHoAg19ocycWvW" version="22.0.4" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1519,7 +1519,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5oa7Y4tv5FcBKjDsohaN" name="Стили">
-    <mxGraphModel dx="2473" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3703" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1598,10 +1598,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-20" value="style: { ...state.style, ...action.payload.style }" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="360" width="150" height="30" as="geometry" />
+          <mxGeometry x="250" y="360" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-21" value="sheduleReducer.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-85" y="300" width="120" height="38" as="geometry" />
+          <mxGeometry x="265" y="300" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yw1a_p3uHuV-YPKxueoh-23" target="Yw1a_p3uHuV-YPKxueoh-42">
           <mxGeometry relative="1" as="geometry" />
@@ -1610,10 +1610,10 @@
           <mxGeometry x="-910" y="430" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-32" value="Redactor.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="236" y="300" width="120" height="38" as="geometry" />
+          <mxGeometry x="586" y="300" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-33" value="chartConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="221" y="360" width="150" height="30" as="geometry" />
+          <mxGeometry x="571" y="360" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-41" value="RouteStage.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-390" y="300" width="120" height="38" as="geometry" />
@@ -1621,11 +1621,26 @@
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yw1a_p3uHuV-YPKxueoh-42" target="Yw1a_p3uHuV-YPKxueoh-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Yw1a_p3uHuV-YPKxueoh-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yw1a_p3uHuV-YPKxueoh-42" target="Yw1a_p3uHuV-YPKxueoh-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-42" value="this.userScale?.updateCategoriesColors(data.colors)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-480" y="430" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-44" value="this.categories = data.categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-430" y="480" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw1a_p3uHuV-YPKxueoh-46" value="Userscale.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="300" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw1a_p3uHuV-YPKxueoh-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yw1a_p3uHuV-YPKxueoh-47" target="Yw1a_p3uHuV-YPKxueoh-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw1a_p3uHuV-YPKxueoh-47" value="this.chartConfig.catColors = colors" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-87.5" y="430" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw1a_p3uHuV-YPKxueoh-49" value="route.getStyled(color)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="480" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
