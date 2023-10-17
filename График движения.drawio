@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T07:49:53.928Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wzJO5eBx72e2iuSGQiPr" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-17T07:50:30.719Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tEPgPl163sV-CuVUHroK" version="22.0.4" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -939,7 +939,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CqUQJFkqP1_rSqp53F9I" name="Routes (нитки)">
-    <mxGraphModel dx="3668" dy="1910" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3987" dy="2078" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -985,13 +985,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-6" value="if (stage &amp;amp;&amp;amp;&amp;nbsp;newRoutes.length&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;amp;&amp;amp;&amp;nbsp;currentTrack !== -1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;amp;&amp;amp;&amp;nbsp;schedules[currentTrack])" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-73" y="-65" width="254" height="52" as="geometry" />
+          <mxGeometry x="-69" y="-65" width="254" height="52" as="geometry" />
         </mxCell>
         <mxCell id="PE6r57emN2nRF4_Q4quW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MyBfxwaRdr4Ra5bdeJfZ-7" target="MyBfxwaRdr4Ra5bdeJfZ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-7" value="createRoute(...)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2" y="33" width="128" height="30" as="geometry" />
+          <mxGeometry x="-6" y="33" width="128" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-9" value="RouteStage.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="264" y="-198" width="120" height="38" as="geometry" />
@@ -1002,13 +1002,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-10" value="stage.createRoute(...)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-12" y="113" width="156" height="30" as="geometry" />
+          <mxGeometry x="-20" y="113" width="156" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MyBfxwaRdr4Ra5bdeJfZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KkirB9YplyHkhNLy1HcI-7" target="KkirB9YplyHkhNLy1HcI-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PE6r57emN2nRF4_Q4quW-7" value="newRote.render()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="264" y="113" width="156" height="30" as="geometry" />
+          <mxGeometry x="246" y="113" width="156" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WMM__Rl1SLDa7-ADD41u-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Добавление нового рута&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-540" y="-263" width="199" height="29" as="geometry" />
