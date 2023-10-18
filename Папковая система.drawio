@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T06:17:42.575Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="AZ8og3_E6Nsr1LtBmjjn" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-18T06:29:43.914Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="jVpZYnL_kTRcKfgR9Xbr" version="22.0.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Структура">
     <mxGraphModel dx="14340" dy="7550" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,79 +8,29 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Страница" id="FGSLFcA5dwXF7AQzG88V">
-    <mxGraphModel dx="2620" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2447" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oaJIlcJUGa4-hsv59ohd-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Открыть существующий расчёт&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-810" y="40" width="250" height="30" as="geometry" />
+        <mxCell id="oaJIlcJUGa4-hsv59ohd-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Открываем папку страницы&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="-795" y="40" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ppa2JEJhL1jxVjlj00-w-1" value="ScheduleAdd.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-800" y="90" width="120" height="38" as="geometry" />
+        <mxCell id="ppa2JEJhL1jxVjlj00-w-1" value="MainFileWindow.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="90" width="120" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Yw1a_p3uHuV-YPKxueoh-1" target="Yw1a_p3uHuV-YPKxueoh-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-5" value="dispatch(scheduleUpdateStyle(style))" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yw1a_p3uHuV-YPKxueoh-4" vertex="1" connectable="0">
-          <mxGeometry x="0.181" y="1" relative="1" as="geometry">
-            <mxPoint x="-26" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-1" value="loadFromLS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="150" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-2" value="sheduleReducer.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="90" width="120" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Yw1a_p3uHuV-YPKxueoh-3" target="Yw1a_p3uHuV-YPKxueoh-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-10" value="useMemo(() =&amp;gt; {}, [style])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yw1a_p3uHuV-YPKxueoh-8" vertex="1" connectable="0">
-          <mxGeometry x="-0.0365" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-3" value="style: { ...state.style, ...action.payload.style }" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-455" y="150" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-6" value="Redactor.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-115" y="90" width="120" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Yw1a_p3uHuV-YPKxueoh-7" target="Yw1a_p3uHuV-YPKxueoh-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-15" value="constructor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yw1a_p3uHuV-YPKxueoh-13" vertex="1" connectable="0">
-          <mxGeometry x="-0.1031" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-7" value="chartConfig" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="150" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-11" value="Userscale.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="250" y="90" width="120" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="Yw1a_p3uHuV-YPKxueoh-53" edge="1">
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yw1a_p3uHuV-YPKxueoh-1" target="3pVccBJm3PNb7I5ALdY8-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="210" as="sourcePoint" />
+            <mxPoint x="-800" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-55" value="... создание рута" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yw1a_p3uHuV-YPKxueoh-54" vertex="1" connectable="0">
-          <mxGeometry x="-0.2238" y="-2" relative="1" as="geometry">
-            <mxPoint x="-58" y="4" as="offset" />
-          </mxGeometry>
+        <mxCell id="Yw1a_p3uHuV-YPKxueoh-1" value="if (currentObject.inner)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-770" y="150" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-12" value="this.chartConfig = config.chartConfig" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="202.5" y="150" width="215" height="30" as="geometry" />
+        <mxCell id="maHeQg16XdsTz-p-mWB7-1" value="123" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="340" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-52" value="Route.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="640" y="90" width="120" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="Yw1a_p3uHuV-YPKxueoh-53" value="const catColors = props.stage.&lt;b&gt;userScale.getChartConfig()&lt;/b&gt;.catColors" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="150" width="400" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="maHeQg16XdsTz-p-mWB7-1" value="Здесь не произойдет связывание цвета рута и цвета из chartConfig, т.к. chartConfig приватная переменная" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="500" y="190" width="400" height="60" as="geometry" />
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-2" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;setState(prev =&amp;gt; ({&lt;br&gt;...prev, &lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;queryString: `${currentObject.queryString}${object.id}`}))&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="230" width="290" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
