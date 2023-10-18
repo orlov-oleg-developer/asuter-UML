@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T06:29:43.914Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="jVpZYnL_kTRcKfgR9Xbr" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-18T06:47:13.565Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="v1IMmu8ZitSHsNroYuS3" version="22.0.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Структура">
     <mxGraphModel dx="14340" dy="7550" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Страница" id="FGSLFcA5dwXF7AQzG88V">
-    <mxGraphModel dx="2447" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2993" dy="944" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,14 +23,77 @@
             <mxPoint x="-800" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yw1a_p3uHuV-YPKxueoh-1" target="3pVccBJm3PNb7I5ALdY8-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-590" y="165" />
+              <mxPoint x="-590" y="320" />
+              <mxPoint x="-700" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Yw1a_p3uHuV-YPKxueoh-1" value="if (currentObject.inner)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-770" y="150" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="maHeQg16XdsTz-p-mWB7-1" value="123" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="340" width="140" height="60" as="geometry" />
+        <mxCell id="maHeQg16XdsTz-p-mWB7-1" value="В зависимости от страницы открывается свой компонент со своими пропсами" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-164" y="610" width="361" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3pVccBJm3PNb7I5ALdY8-2" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;setState(prev =&amp;gt; ({&lt;br&gt;...prev, &lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;queryString: `${currentObject.queryString}${object.id}`}))&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="230" width="290" height="70" as="geometry" />
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3pVccBJm3PNb7I5ALdY8-2" target="3pVccBJm3PNb7I5ALdY8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-7" value="queryString" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3pVccBJm3PNb7I5ALdY8-6">
+          <mxGeometry x="-0.0283" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3pVccBJm3PNb7I5ALdY8-2" target="3pVccBJm3PNb7I5ALdY8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-2" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;setState(prev =&amp;gt; ({&lt;/span&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;...prev,&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;queryString: `${currentObject.queryString}${object.id}`&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}))&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-974" y="234" width="366" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-3" value="FileManager.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-394" y="90" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-4" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;setState(...&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-384" y="253" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3pVccBJm3PNb7I5ALdY8-8" target="3pVccBJm3PNb7I5ALdY8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-8" value="if (!currentObject.dependencies || folders)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-818" y="337" width="236" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3pVccBJm3PNb7I5ALdY8-11" target="3pVccBJm3PNb7I5ALdY8-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-402.65217391304327" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-15" value="object" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3pVccBJm3PNb7I5ALdY8-13">
+          <mxGeometry x="-0.2093" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-11" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;currentObject.onItemClick(object)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-962" y="413" width="202" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3pVccBJm3PNb7I5ALdY8-14" target="3pVccBJm3PNb7I5ALdY8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-14" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;state.currentItem.onItemClick(object)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-443" y="413" width="218" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-16" value="FileManagerWrapper.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-64" y="90" width="166" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3pVccBJm3PNb7I5ALdY8-17" target="3pVccBJm3PNb7I5ALdY8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-17" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;tree[item].onItemClick(object)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="413" width="218" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="3pVccBJm3PNb7I5ALdY8-20" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;setState(prev =&amp;gt; { return { &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;...prev,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;component: [object].id &amp;amp;&amp;amp; &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;[Component] id={[object].id}/&amp;gt; &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;} })" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-164" y="500" width="366" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
