@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T08:01:01.816Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="oNOP7uxVVkavLSy0TFZd" version="22.0.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-19T08:02:13.292Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Ih4RbRnfdUvUDqxWUUAc" version="22.0.5" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -939,7 +939,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CqUQJFkqP1_rSqp53F9I" name="Routes (нитки)">
-    <mxGraphModel dx="1947" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2887" dy="1288" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1234,16 +1234,10 @@
         <mxCell id="ptfBvni-gGy0ouF7dNUB-19" value="return element" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="811.75" y="1512" width="254" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ptfBvni-gGy0ouF7dNUB-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="483" y="159" as="sourcePoint" />
-            <mxPoint x="-587" y="159" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ptfBvni-gGy0ouF7dNUB-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="493" y="711" as="sourcePoint" />
-            <mxPoint x="493" y="-246" as="targetPoint" />
+            <mxPoint x="1849" y="1671" as="sourcePoint" />
+            <mxPoint x="1849" y="714" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ptfBvni-gGy0ouF7dNUB-28" value="Span.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -1255,7 +1249,7 @@
         <mxCell id="ptfBvni-gGy0ouF7dNUB-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2286" y="722" as="sourcePoint" />
-            <mxPoint x="507" y="722" as="targetPoint" />
+            <mxPoint x="-828" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ta83L86gVi09ZUPVb5U--1" value="UserStage.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -1582,6 +1576,18 @@
         </mxCell>
         <mxCell id="3ecc8Vs3MD1Tes_HXf8t-8" value="delete route.updateComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1382" y="2956" width="318.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ecc8Vs3MD1Tes_HXf8t-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="503" y="721" as="sourcePoint" />
+            <mxPoint x="503" y="-236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ecc8Vs3MD1Tes_HXf8t-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1816" y="1607" as="sourcePoint" />
+            <mxPoint x="-835" y="1605" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
