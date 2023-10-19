@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T08:00:03.744Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="iwEnvFI0bv-gOyFbJ_JX" version="22.0.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-19T08:01:01.816Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="oNOP7uxVVkavLSy0TFZd" version="22.0.5" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -939,7 +939,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CqUQJFkqP1_rSqp53F9I" name="Routes (нитки)">
-    <mxGraphModel dx="2234" dy="1155" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1947" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1420,6 +1420,20 @@
         <mxCell id="AOuOxcJ3f6sheJdBempL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AOuOxcJ3f6sheJdBempL-34" target="AOuOxcJ3f6sheJdBempL-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3ecc8Vs3MD1Tes_HXf8t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="AOuOxcJ3f6sheJdBempL-34" target="AOuOxcJ3f6sheJdBempL-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467" y="2435" />
+              <mxPoint x="467" y="2537" />
+              <mxPoint x="-33" y="2537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ecc8Vs3MD1Tes_HXf8t-13" value="OnOkey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3ecc8Vs3MD1Tes_HXf8t-12">
+          <mxGeometry x="-0.226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AOuOxcJ3f6sheJdBempL-34" value="this.showConfirm(() =&amp;gt; { route.release() })" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="282" y="2420" width="155" height="30" as="geometry" />
         </mxCell>
@@ -1429,7 +1443,7 @@
         <mxCell id="AOuOxcJ3f6sheJdBempL-36" value="return &#39;redo&#39;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="317" y="2481" width="85" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="AOuOxcJ3f6sheJdBempL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AOuOxcJ3f6sheJdBempL-38" target="AOuOxcJ3f6sheJdBempL-57">
+        <mxCell id="AOuOxcJ3f6sheJdBempL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="AOuOxcJ3f6sheJdBempL-38" target="AOuOxcJ3f6sheJdBempL-57">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="396" y="2684.4285714285716" as="targetPoint" />
             <Array as="points">
