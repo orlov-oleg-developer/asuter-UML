@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T12:57:11.839Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="zeZhOiWQFRxqrdA3GfHU" version="22.0.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-20T13:10:41.895Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Q9ipsZVcRwNoamuU6KDD" version="22.0.5" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2272,7 +2272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iO2XenfYBkx-p6Equ_N_" name="Категории">
-    <mxGraphModel dx="3703" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2849" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2397,8 +2397,8 @@
             <mxPoint x="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L61pVP93XFlr9FJ61sZZ-50" value="this.onCategoriesUpdate(categories)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="950" width="220" height="30" as="geometry" />
+        <mxCell id="L61pVP93XFlr9FJ61sZZ-50" value="this.onCategoriesUpdate(this, categories)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="950" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-52" value="dispatch(scheduleUpdateCategory(categories[stage.currentTrack]))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="950" width="400" height="30" as="geometry" />
@@ -2567,8 +2567,8 @@
         <mxCell id="HP5K3-6cMOFq15SPVHXc-17" value="this.categories = categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-420" y="1300" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HP5K3-6cMOFq15SPVHXc-20" value="this.onCategoriesUpdate(categories)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="1354" width="220" height="30" as="geometry" />
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-20" value="this.onCategoriesUpdate(this, categories)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1354" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="HP5K3-6cMOFq15SPVHXc-24" source="HP5K3-6cMOFq15SPVHXc-20">
           <mxGeometry relative="1" as="geometry">
@@ -2592,8 +2592,8 @@
         <mxCell id="HP5K3-6cMOFq15SPVHXc-27" value="this.categories = categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-805" y="2251" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HP5K3-6cMOFq15SPVHXc-28" value="this.onCategoriesUpdate(categories)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-825" y="2305" width="220" height="30" as="geometry" />
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-28" value="this.onCategoriesUpdate(this, categories)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="2305" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-28" target="HP5K3-6cMOFq15SPVHXc-31">
           <mxGeometry relative="1" as="geometry">
