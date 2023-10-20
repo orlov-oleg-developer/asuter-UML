@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T12:53:20.518Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="93q-YSAih74xtLfhTriF" version="22.0.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-20T12:53:50.882Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0m9HKmVQNPSYaXHQkGb1" version="22.0.5" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2272,7 +2272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iO2XenfYBkx-p6Equ_N_" name="Категории">
-    <mxGraphModel dx="2473" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4522" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2289,7 +2289,7 @@
           <mxGeometry x="-930" y="150" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-10" value="RouteStage.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="820" width="120" height="38" as="geometry" />
+          <mxGeometry x="-380" y="820" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-21" target="L61pVP93XFlr9FJ61sZZ-23">
           <mxGeometry relative="1" as="geometry" />
@@ -2387,7 +2387,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-48" value="this.categories = categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="890" width="160" height="30" as="geometry" />
+          <mxGeometry x="-400" y="890" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-50" target="L61pVP93XFlr9FJ61sZZ-52">
           <mxGeometry relative="1" as="geometry" />
@@ -2398,13 +2398,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-50" value="this.onCategoriesUpdate(categories)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="950" width="220" height="30" as="geometry" />
+          <mxGeometry x="-430" y="950" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-52" value="dispatch(scheduleUpdateCategory(categories[stage.currentTrack]))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="950" width="400" height="30" as="geometry" />
+          <mxGeometry x="-100" y="950" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-54" value="Redactor.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="300" y="890" width="120" height="38" as="geometry" />
+          <mxGeometry x="40" y="890" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-60" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Изменение категорий через таблицу с категориями&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-850" y="1020" width="390" height="30" as="geometry" />
