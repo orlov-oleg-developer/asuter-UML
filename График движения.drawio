@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T12:53:50.882Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0m9HKmVQNPSYaXHQkGb1" version="22.0.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-20T12:57:11.839Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="zeZhOiWQFRxqrdA3GfHU" version="22.0.5" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2272,7 +2272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iO2XenfYBkx-p6Equ_N_" name="Категории">
-    <mxGraphModel dx="4522" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3703" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2438,13 +2438,13 @@
           <mxGeometry x="-465" y="1180" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-70" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Изменение категорий, когда добавляем | удаляем нитки движения&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-965" y="1300" width="500" height="30" as="geometry" />
+          <mxGeometry x="-965" y="1430" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-72" target="L61pVP93XFlr9FJ61sZZ-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-72" value="createRoute = (props: iRoute, config?: Partial&amp;lt;tCreateRouteConfig&amp;gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-910" y="1410" width="390" height="30" as="geometry" />
+          <mxGeometry x="-910" y="1540" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-75" target="L61pVP93XFlr9FJ61sZZ-81">
           <mxGeometry relative="1" as="geometry" />
@@ -2455,22 +2455,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-75" value="this.updateTrackCategories(newRoute, &#39;add&#39;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="1480" width="270" height="30" as="geometry" />
+          <mxGeometry x="-850" y="1610" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-76" value="RouteStage.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="1350" width="120" height="38" as="geometry" />
+          <mxGeometry x="-770" y="1480" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-81" target="L61pVP93XFlr9FJ61sZZ-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-81" value="const catId =&amp;nbsp; route.categoryDto.id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="1550" width="210" height="30" as="geometry" />
+          <mxGeometry x="-820" y="1680" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-84" target="L61pVP93XFlr9FJ61sZZ-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-84" value="let newCategories: TrackCategoryDto[] = [...this.categories[this.currentTrack]]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="1610" width="450" height="30" as="geometry" />
+          <mxGeometry x="-940" y="1740" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-86" target="L61pVP93XFlr9FJ61sZZ-88">
           <mxGeometry relative="1" as="geometry" />
@@ -2478,28 +2478,28 @@
         <mxCell id="HP5K3-6cMOFq15SPVHXc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-86" target="HP5K3-6cMOFq15SPVHXc-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-510" y="1685" />
-              <mxPoint x="-510" y="1780" />
-              <mxPoint x="-715" y="1780" />
+              <mxPoint x="-510" y="1815" />
+              <mxPoint x="-510" y="1910" />
+              <mxPoint x="-715" y="1910" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-86" value="if (status === &#39;add&#39; &amp;amp;&amp;amp; !newCategories.find(cat =&amp;gt; cat.id === catId))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-900" y="1670" width="370" height="30" as="geometry" />
+          <mxGeometry x="-900" y="1800" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-88" target="HP5K3-6cMOFq15SPVHXc-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-920" y="1780" />
-              <mxPoint x="-715" y="1780" />
+              <mxPoint x="-920" y="1910" />
+              <mxPoint x="-715" y="1910" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-88" value="newCategories.push(route.categoryDto)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="1730" width="240" height="30" as="geometry" />
+          <mxGeometry x="-1040" y="1860" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-1" value="Добавляем, если новой категории еще нет" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1320" y="1730" width="260" height="30" as="geometry" />
+          <mxGeometry x="-1320" y="1860" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-2" target="HP5K3-6cMOFq15SPVHXc-5">
           <mxGeometry relative="1" as="geometry" />
@@ -2507,20 +2507,20 @@
         <mxCell id="HP5K3-6cMOFq15SPVHXc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-2" target="HP5K3-6cMOFq15SPVHXc-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-610" y="1815" />
-              <mxPoint x="-610" y="2030" />
-              <mxPoint x="-715" y="2030" />
+              <mxPoint x="-610" y="1945" />
+              <mxPoint x="-610" y="2160" />
+              <mxPoint x="-715" y="2160" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-2" value="if (status === &#39;delete&#39;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="1800" width="150" height="30" as="geometry" />
+          <mxGeometry x="-790" y="1930" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-5" target="HP5K3-6cMOFq15SPVHXc-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-5" value="const routes = ... obj instanceof Route)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1030" y="1850" width="240" height="30" as="geometry" />
+          <mxGeometry x="-1030" y="1980" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-7" target="HP5K3-6cMOFq15SPVHXc-9">
           <mxGeometry relative="1" as="geometry" />
@@ -2528,32 +2528,88 @@
         <mxCell id="HP5K3-6cMOFq15SPVHXc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-7" target="HP5K3-6cMOFq15SPVHXc-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-715" y="1925" />
+              <mxPoint x="-715" y="2055" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-7" value="if (!routes.find(r =&amp;gt; r.categoryDto.id === catId))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="1910" width="260" height="30" as="geometry" />
+          <mxGeometry x="-1040" y="2040" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-9" target="HP5K3-6cMOFq15SPVHXc-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1090" y="2030" />
-              <mxPoint x="-715" y="2030" />
+              <mxPoint x="-1090" y="2160" />
+              <mxPoint x="-715" y="2160" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-9" value="newCategories = newCategories.filter(cat =&amp;gt; cat.id !== catId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1260" y="1970" width="340" height="30" as="geometry" />
+          <mxGeometry x="-1260" y="2100" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-10" value="Если но сцене нет ниток, которым нужна эта категория" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1550" y="1970" width="260" height="30" as="geometry" />
+          <mxGeometry x="-1550" y="2100" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-12" target="HP5K3-6cMOFq15SPVHXc-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-12" value="this.updateCategories(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="2060" width="150" height="30" as="geometry" />
+          <mxGeometry x="-790" y="2190" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-16" target="HP5K3-6cMOFq15SPVHXc-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-16" value="this.updateCategories(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-405" y="1240" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-17" target="HP5K3-6cMOFq15SPVHXc-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-17" value="this.categories = categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="1300" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-20" value="this.onCategoriesUpdate(categories)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1354" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="HP5K3-6cMOFq15SPVHXc-24" source="HP5K3-6cMOFq15SPVHXc-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="1340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-23" value="categories" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HP5K3-6cMOFq15SPVHXc-22">
+          <mxGeometry x="-0.1696" y="1" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-24" value="dispatch(scheduleUpdateCategory(categories[stage.currentTrack]))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1354" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-25" value="Redactor.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1294" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-27" target="HP5K3-6cMOFq15SPVHXc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-27" value="this.categories = categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="2251" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-28" value="this.onCategoriesUpdate(categories)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-825" y="2305" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HP5K3-6cMOFq15SPVHXc-28" target="HP5K3-6cMOFq15SPVHXc-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-587" y="2286" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-30" value="categories" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HP5K3-6cMOFq15SPVHXc-29">
+          <mxGeometry x="-0.1696" y="1" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-31" value="dispatch(scheduleUpdateCategory(categories[stage.currentTrack]))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-497" y="2305" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-32" value="Redactor.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-357" y="2245" width="120" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
