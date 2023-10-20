@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T12:51:10.463Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RQk9C2kLn7FsN3Q2C2KQ" version="22.0.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-20T12:52:00.647Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-qbttSMUEorf_15AA_eN" version="22.0.5" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2272,7 +2272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iO2XenfYBkx-p6Equ_N_" name="Категории">
-    <mxGraphModel dx="3163" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3088" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2438,8 +2438,8 @@
         <mxCell id="L61pVP93XFlr9FJ61sZZ-68" value="this.categories = data.categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-430" y="1240" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L61pVP93XFlr9FJ61sZZ-70" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Изменение категорий через таблицу с категориями&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="1300" width="390" height="30" as="geometry" />
+        <mxCell id="L61pVP93XFlr9FJ61sZZ-70" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Изменение категорий, когда добавляем | удаляем нитки движения&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-965" y="1300" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-72" target="L61pVP93XFlr9FJ61sZZ-75">
           <mxGeometry relative="1" as="geometry" />
