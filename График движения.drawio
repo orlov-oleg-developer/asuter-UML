@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T12:52:00.647Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-qbttSMUEorf_15AA_eN" version="22.0.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-20T12:53:20.518Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="93q-YSAih74xtLfhTriF" version="22.0.5" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2272,7 +2272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iO2XenfYBkx-p6Equ_N_" name="Категории">
-    <mxGraphModel dx="3088" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2473" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2429,14 +2429,13 @@
         <mxCell id="L61pVP93XFlr9FJ61sZZ-64" value="RouteStage.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-390" y="1070" width="120" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="L61pVP93XFlr9FJ61sZZ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-65" target="L61pVP93XFlr9FJ61sZZ-68">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="L61pVP93XFlr9FJ61sZZ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L61pVP93XFlr9FJ61sZZ-65" target="HP5K3-6cMOFq15SPVHXc-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-330" y="1240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-65" value="this.emitter.on(&#39;updateCategories&#39;, ...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-465" y="1180" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="L61pVP93XFlr9FJ61sZZ-68" value="this.categories = data.categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="1240" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L61pVP93XFlr9FJ61sZZ-70" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Изменение категорий, когда добавляем | удаляем нитки движения&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-965" y="1300" width="500" height="30" as="geometry" />
@@ -2552,6 +2551,9 @@
         </mxCell>
         <mxCell id="HP5K3-6cMOFq15SPVHXc-12" value="this.updateCategories(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-790" y="2060" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HP5K3-6cMOFq15SPVHXc-16" value="this.updateCategories(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-405" y="1240" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
