@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T11:36:08.324Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="8qDdmkcCmhMHtApqXf4g" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-26T11:37:53.261Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="_2LpLPzZCG8CQuAlBlLf" version="22.0.8" type="github" pages="3">
   <diagram name="Plotly" id="S_bzS8s4k4nJKGlNznGW">
     <mxGraphModel dx="2634" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -822,7 +822,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ljEOUegM1-FJaNn04m5s" name="Subplots">
-    <mxGraphModel dx="1834" dy="1155" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1195" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -988,6 +988,9 @@
         <mxCell id="heTgAO1ELfpfIyHIqkTx-40" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" parent="1" source="heTgAO1ELfpfIyHIqkTx-34" target="heTgAO1ELfpfIyHIqkTx-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fZcWxxnkv1ny1SvdpaRp-161" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" parent="1" source="heTgAO1ELfpfIyHIqkTx-34" target="fZcWxxnkv1ny1SvdpaRp-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="heTgAO1ELfpfIyHIqkTx-34" value="newLayotSettings.shapes = getShapes(...)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="307" y="1006" width="262" height="30" as="geometry" />
         </mxCell>
@@ -1022,28 +1025,28 @@
           <mxGeometry x="363" y="866" width="454" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-67" value="Удаление subplot" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="18" width="160" height="30" as="geometry" />
+          <mxGeometry x="23" y="1448" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-68" value="ChartConstructorItemsList.tsx" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="68" width="180" height="30" as="geometry" />
+          <mxGeometry x="23" y="1498" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" source="fZcWxxnkv1ny1SvdpaRp-70" target="fZcWxxnkv1ny1SvdpaRp-72" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-70" value="onChangeSubplot(e)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="118" width="140" height="30" as="geometry" />
+          <mxGeometry x="43" y="1548" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-71" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" source="fZcWxxnkv1ny1SvdpaRp-72" target="fZcWxxnkv1ny1SvdpaRp-74" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-72" value="const &lt;b&gt;subplotIndex&lt;/b&gt; = +e.currentTarget.dataset.index" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="178" width="300" height="30" as="geometry" />
+          <mxGeometry x="-37" y="1608" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-73" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" source="fZcWxxnkv1ny1SvdpaRp-74" target="fZcWxxnkv1ny1SvdpaRp-77" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-74" value="const &lt;b&gt;delstatus&lt;/b&gt;= +e.currentTarget.dataset.delstatus as tDelStatus" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="238" width="380" height="30" as="geometry" />
+          <mxGeometry x="-77" y="1668" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-75" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" source="fZcWxxnkv1ny1SvdpaRp-77" target="fZcWxxnkv1ny1SvdpaRp-80" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1054,34 +1057,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-77" value="dispatch(chartUpdateSubplotSettings(subplotIndex, delstatus))" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="298" width="380" height="30" as="geometry" />
+          <mxGeometry x="-77" y="1728" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-78" value="chartReducer.ts" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="238" width="180" height="30" as="geometry" />
+          <mxGeometry x="493" y="1668" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" source="fZcWxxnkv1ny1SvdpaRp-80" target="fZcWxxnkv1ny1SvdpaRp-120" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-80" value="switch (delstatus)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="298" width="160" height="30" as="geometry" />
+          <mxGeometry x="503" y="1728" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-81" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" source="fZcWxxnkv1ny1SvdpaRp-82" target="fZcWxxnkv1ny1SvdpaRp-84" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-82" value="newSubplotsSettings = state.subplotsSettings.filter(i !== subplotIndex)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2058" y="418" width="404" height="30" as="geometry" />
+          <mxGeometry x="381" y="1848" width="404" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-124" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" parent="1" source="fZcWxxnkv1ny1SvdpaRp-84" target="fZcWxxnkv1ny1SvdpaRp-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-84" value="newChartData = state.chartData.filter(dataset =&amp;gt; dataset.yaxis !== yaxis)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2049" y="468" width="422" height="30" as="geometry" />
+          <mxGeometry x="372" y="1898" width="422" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-119" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" source="fZcWxxnkv1ny1SvdpaRp-120" target="fZcWxxnkv1ny1SvdpaRp-82" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-120" value="const yaxis = state.subplotsSettings[subplotIndex].yaxis" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2091" y="363" width="338" height="30" as="geometry" />
+          <mxGeometry x="414" y="1793" width="338" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-127" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" parent="1" source="fZcWxxnkv1ny1SvdpaRp-123" target="fZcWxxnkv1ny1SvdpaRp-126">
           <mxGeometry relative="1" as="geometry" />
@@ -1090,19 +1093,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-123" value="newChartData = updateLinesYaxis(newChartData)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2105" y="524" width="310" height="30" as="geometry" />
+          <mxGeometry x="428" y="1954" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-125" value="updateLinesYaxis.ts" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2608" y="476" width="180" height="30" as="geometry" />
+          <mxGeometry x="931" y="1906" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-126" value="updateLinesYaxis(newChartData)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2539" y="524" width="310" height="30" as="geometry" />
+          <mxGeometry x="862" y="1954" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-157" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" parent="1" source="fZcWxxnkv1ny1SvdpaRp-129" target="fZcWxxnkv1ny1SvdpaRp-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-129" value="newLayotSettings.shapes = []" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2157" y="581" width="206" height="30" as="geometry" />
+          <mxGeometry x="480" y="2011" width="206" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-146" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fZcWxxnkv1ny1SvdpaRp-148" target="fZcWxxnkv1ny1SvdpaRp-150">
           <mxGeometry relative="1" as="geometry" />
@@ -1110,38 +1113,53 @@
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-147" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" parent="1" source="fZcWxxnkv1ny1SvdpaRp-148" target="fZcWxxnkv1ny1SvdpaRp-152">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2409" y="655" />
-              <mxPoint x="2409" y="772" />
-              <mxPoint x="2260" y="772" />
+              <mxPoint x="732" y="2085" />
+              <mxPoint x="732" y="2202" />
+              <mxPoint x="583" y="2202" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-148" value="if (newLayotSettings?.shapes?.length)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2129" y="640" width="262" height="30" as="geometry" />
+          <mxGeometry x="452" y="2070" width="262" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-149" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" parent="1" source="fZcWxxnkv1ny1SvdpaRp-150" target="fZcWxxnkv1ny1SvdpaRp-152">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fZcWxxnkv1ny1SvdpaRp-164" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" parent="1" source="fZcWxxnkv1ny1SvdpaRp-150" target="fZcWxxnkv1ny1SvdpaRp-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-150" value="newLayotSettings.shapes = getShapes(state.shapes, newChartData, ...)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1903" y="714" width="410" height="30" as="geometry" />
+          <mxGeometry x="226" y="2144" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-151" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" parent="1" source="fZcWxxnkv1ny1SvdpaRp-152" target="fZcWxxnkv1ny1SvdpaRp-154">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-152" value="const numberOfRows = newSubplotsSettings.length" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2103" y="800" width="314" height="30" as="geometry" />
+          <mxGeometry x="426" y="2230" width="314" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-153" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" edge="1" parent="1" source="fZcWxxnkv1ny1SvdpaRp-154" target="fZcWxxnkv1ny1SvdpaRp-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-154" value="newLayotSettings.grid.rows = numberOfRows" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2125" y="859" width="270" height="30" as="geometry" />
+          <mxGeometry x="448" y="2289" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-155" value="newLayotSettings.grid.ygap = ..." style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2148" y="921" width="224" height="30" as="geometry" />
+          <mxGeometry x="471" y="2351" width="224" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZcWxxnkv1ny1SvdpaRp-156" value="Меняем yaxis у шейпов" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1699" y="714" width="189" height="30" as="geometry" />
+          <mxGeometry x="22" y="2144" width="189" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZcWxxnkv1ny1SvdpaRp-158" value="getShapes.ts" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1667" y="953" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZcWxxnkv1ny1SvdpaRp-159" value="getShapes(...)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1005" width="154" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZcWxxnkv1ny1SvdpaRp-162" value="getShapes.ts" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="2091" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZcWxxnkv1ny1SvdpaRp-163" value="getShapes(...)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1257" y="2143" width="154" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
