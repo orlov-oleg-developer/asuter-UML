@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T08:06:05.785Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Ytl7WNWzWROTfWg5ZE_m" version="22.0.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-10-27T08:17:19.461Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="U2-CtaRgp_a2H7sZYb5M" version="22.0.8" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2615,10 +2615,52 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2R740TbVrH6czjtDQSSv" name="Масштаб">
-    <mxGraphModel dx="1434" dy="755" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="360" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vPY1eNRnHZ64fWBXXK6Y-1" value="Изменить масштаб" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="382" y="374" width="134" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvWwGvUWuVaOfDXINMuD-1" value="Redactor.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="389" y="440" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRO3SybwR6fawWzbzOTi-1" target="VRO3SybwR6fawWzbzOTi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-4" value="useMemo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VRO3SybwR6fawWzbzOTi-3">
+          <mxGeometry x="0.0152" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-1" value="setKmDelimeter()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="509" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRO3SybwR6fawWzbzOTi-2" target="VRO3SybwR6fawWzbzOTi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-7" value="useEffect(() =&amp;gt; {}, [scale, ..])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VRO3SybwR6fawWzbzOTi-6">
+          <mxGeometry x="-0.0781" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-2" value="return [scale, ...]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="586" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRO3SybwR6fawWzbzOTi-5" target="VRO3SybwR6fawWzbzOTi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-11" value="useEffect(() =&amp;gt; {}, [scale, ..])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VRO3SybwR6fawWzbzOTi-9">
+          <mxGeometry x="-0.0688" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-5" value="stage.clearStage()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="666" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRO3SybwR6fawWzbzOTi-8" value="stage.userScale = new UserScale({})" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="768" width="216" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
