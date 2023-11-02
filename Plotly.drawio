@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T13:01:49.927Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VLBbLAMLBzLa3pySwPUV" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-02T14:54:20.370Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5yDupIuko1tKAcj_g8Ph" version="22.0.8" type="github" pages="3">
   <diagram name="Plotly" id="S_bzS8s4k4nJKGlNznGW">
-    <mxGraphModel dx="4068" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1994" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -326,6 +326,9 @@
         <mxCell id="utNEbO377jcqNrrRtUvF-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=#007FFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" parent="1" source="7JA5W__535i6y169U8hf-85" target="utNEbO377jcqNrrRtUvF-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uiknRJjHhPXYlbo9mrBk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;dashed=1;fillColor=#dae8fc;curved=1;" edge="1" parent="1" source="7JA5W__535i6y169U8hf-85" target="uiknRJjHhPXYlbo9mrBk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7JA5W__535i6y169U8hf-85" value="xaxis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="540" y="720" width="80" height="30" as="geometry" />
         </mxCell>
@@ -336,10 +339,10 @@
           <mxGeometry x="755" y="700" width="375" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7JA5W__535i6y169U8hf-91" value="title" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="665" y="740" width="45" height="30" as="geometry" />
+          <mxGeometry x="665" y="790" width="45" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7JA5W__535i6y169U8hf-92" value="&amp;nbsp;название оси ox" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontStyle=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="720" y="740" width="110" height="30" as="geometry" />
+          <mxGeometry x="720" y="790" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7JA5W__535i6y169U8hf-98" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=#007FFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" parent="1" source="7JA5W__535i6y169U8hf-94" target="7JA5W__535i6y169U8hf-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -820,34 +823,40 @@
           <mxGeometry x="-640" y="1470" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utNEbO377jcqNrrRtUvF-1" value="ticktext" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="665" y="780" width="65" height="30" as="geometry" />
+          <mxGeometry x="665" y="830" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utNEbO377jcqNrrRtUvF-2" value="&amp;nbsp;текстовые значения для точек на оси x, крепятся к&amp;nbsp;tickvals" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontStyle=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="817.5" y="780" width="362.5" height="30" as="geometry" />
+          <mxGeometry x="817.5" y="830" width="362.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utNEbO377jcqNrrRtUvF-3" value="string[]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="740" y="780" width="70" height="30" as="geometry" />
+          <mxGeometry x="740" y="830" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utNEbO377jcqNrrRtUvF-6" value="tickvals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="665" y="820" width="65" height="30" as="geometry" />
+          <mxGeometry x="665" y="870" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utNEbO377jcqNrrRtUvF-7" value="&amp;nbsp;координаты, к которым крепятся текстовые обозначения точек на оси x" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontStyle=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="817.5" y="820" width="442.5" height="30" as="geometry" />
+          <mxGeometry x="817.5" y="870" width="442.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utNEbO377jcqNrrRtUvF-8" value="number[]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="740" y="820" width="70" height="30" as="geometry" />
+          <mxGeometry x="740" y="870" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utNEbO377jcqNrrRtUvF-10" value="tickangle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="665" y="860" width="65" height="30" as="geometry" />
+          <mxGeometry x="665" y="910" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utNEbO377jcqNrrRtUvF-12" value="number" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="740" y="860" width="70" height="30" as="geometry" />
+          <mxGeometry x="740" y="910" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utNEbO377jcqNrrRtUvF-13" value="&amp;nbsp;угол, под которым будет расположено текстовое обозначение" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontStyle=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="817.5" y="860" width="392.5" height="30" as="geometry" />
+          <mxGeometry x="817.5" y="910" width="392.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qek-EVh7Ii1RDFnt7jO_-1" value="&amp;nbsp;аннотации - доп текстовые элементы, которые можно привязать ко всему графику или к конкретной точке" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontStyle=1;align=left;" vertex="1" parent="1">
+        <mxCell id="qek-EVh7Ii1RDFnt7jO_-1" value="&amp;nbsp;аннотации - доп текстовые элементы, которые можно привязать ко всему графику или к конкретной точке" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontStyle=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="630" y="1430" width="650" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiknRJjHhPXYlbo9mrBk-2" value="range" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="665" y="740" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiknRJjHhPXYlbo9mrBk-3" value="&amp;nbsp;[min, max] значения оси ox = масштаб" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="755" y="740" width="375" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
