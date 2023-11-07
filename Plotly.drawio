@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T06:17:25.930Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tfp1q0W9mJY77-UWWuhO" version="22.0.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-07T06:18:37.248Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qLKZKo4rYZ8P7WTx22bv" version="22.0.8" type="github" pages="4">
   <diagram name="Plotly" id="S_bzS8s4k4nJKGlNznGW">
     <mxGraphModel dx="3585" dy="2288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -569,24 +569,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="AHWaGypp17wd1P4eW4pl" name="data">
-    <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ljEOUegM1-FJaNn04m5s" name="Subplots">
-    <mxGraphModel dx="7170" dy="3775" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="VOhN88B2DxwKwmZtsoRk" name="BASE">
-    <mxGraphModel dx="1147" dy="604" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1912" dy="1007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -611,7 +595,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t6ZbOCOdv8a1IRL4MAbz-30" value="ChartConfigurator" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="328" y="297" width="546" height="766" as="geometry">
+          <mxGeometry x="327" y="297" width="546" height="766" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -740,6 +724,22 @@
         <mxCell id="t6ZbOCOdv8a1IRL4MAbz-73" value="+ rollback(): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
           <mxGeometry y="242" width="448" height="26" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AHWaGypp17wd1P4eW4pl" name="data">
+    <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ljEOUegM1-FJaNn04m5s" name="Subplots">
+    <mxGraphModel dx="7170" dy="3775" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
