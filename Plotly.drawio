@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T06:54:38.318Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="P40yMSmFUE8lFFvb3Ycg" version="22.0.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-07T06:55:58.208Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="rjbzhCHEdVO0m9M_YDGB" version="22.0.8" type="github" pages="4">
   <diagram name="Plotly" id="S_bzS8s4k4nJKGlNznGW">
     <mxGraphModel dx="2049" dy="1479" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -728,7 +728,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AHWaGypp17wd1P4eW4pl" name="Flow">
-    <mxGraphModel dx="1219" dy="-369" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="-279" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -746,27 +746,27 @@
         <mxCell id="lR7Bbi2gNPFZ58W1QyVh-125" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;endFill=1;fillColor=#dae8fc;" edge="1" parent="1" source="lR7Bbi2gNPFZ58W1QyVh-52" target="lR7Bbi2gNPFZ58W1QyVh-77">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="894" y="1132" />
-              <mxPoint x="894" y="961" />
+              <mxPoint x="837" y="1132" />
+              <mxPoint x="837" y="961" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sxOThpnCvnHIrP_kdQYu-1" value="ChartConfiguratorUtils.getSeries(series)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="lR7Bbi2gNPFZ58W1QyVh-125">
+        <mxCell id="sxOThpnCvnHIrP_kdQYu-1" value="ChartConfiguratorUtils.getSeries(series: ChartDataSeries[])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="lR7Bbi2gNPFZ58W1QyVh-125">
           <mxGeometry x="0.5199" y="-12" relative="1" as="geometry">
-            <mxPoint x="-22" y="-12" as="offset" />
+            <mxPoint x="-42" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lR7Bbi2gNPFZ58W1QyVh-126" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;endFill=1;fillColor=#dae8fc;" edge="1" parent="1" source="lR7Bbi2gNPFZ58W1QyVh-52" target="lR7Bbi2gNPFZ58W1QyVh-124">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="894" y="1132" />
-              <mxPoint x="894" y="1317" />
+              <mxPoint x="837" y="1132" />
+              <mxPoint x="837" y="1317" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sxOThpnCvnHIrP_kdQYu-3" value="dtoToSettings(series: ChartDataSeries[])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="lR7Bbi2gNPFZ58W1QyVh-126">
           <mxGeometry x="0.4627" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-44" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lR7Bbi2gNPFZ58W1QyVh-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=none;dashed=1;dashPattern=8 8;strokeColor=#6c8ebf;" vertex="1" parent="1">
