@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T05:59:18.788Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="s2elKY8vOx5rPq5q6kNe" version="22.0.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-07T06:10:51.223Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="3BT82UB_AvR9ZbT-B8dl" version="22.0.8" type="github" pages="4">
   <diagram name="Plotly" id="S_bzS8s4k4nJKGlNznGW">
     <mxGraphModel dx="3585" dy="2288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -586,7 +586,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VOhN88B2DxwKwmZtsoRk" name="BASE">
-    <mxGraphModel dx="1687" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -606,6 +606,101 @@
         </mxCell>
         <mxCell id="t6ZbOCOdv8a1IRL4MAbz-29" value="&lt;&lt;abstract&gt;&gt; settingsToPlot(settings: ChartSettings): PlotlyProps" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-1">
           <mxGeometry y="86" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="t6ZbOCOdv8a1IRL4MAbz-30" target="t6ZbOCOdv8a1IRL4MAbz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-30" value="ChartConfigurator" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="297" width="546" height="766" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-31" value="- _series: Series" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="26" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-36" value="- _chartTitle: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="52" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-37" value="- _defaultsettings: ChartSettings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="78" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-38" value="- _settings: ChartSettings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="104" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-39" value="- _defaultSubplots?: DefaultSettings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="130" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-40" value="# _modalWindow: JSX.Element" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="156" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-41" value="# _onChartUpdate: () =&gt; void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="182" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-42" value="# _onChartTitleUpdate: (title: string) =&gt; void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="208" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-43" value="- _onChartPropsUpdate: (plotProps: PlotlyProps) =&gt; void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="234" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-44" value="- _isEmpty: boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="260" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-32" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="286" width="546" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-33" value="+ constructor(props: ChartConfiguratorProps): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="294" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-34" value="+ dtoToSettings(series: ChartDataSeries[]): ChartSettings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="320" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-45" value="+ settingsToPlot(settings: ChartSettings): PlotlyProps" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="346" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-46" value="+ updateSeries(series: ChartDataSeries[]): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="372" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-47" value="+ updateChartTitle(title: string): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="398" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-48" value="+ getModal(): JSX.Element" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="424" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-49" value="+ registerChartUpdate(callBack: () =&gt; void): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="450" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-50" value="+ registerChartTitleUpdate(callBack: (title: string) =&gt; void): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="476" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-51" value="+ registerChartPropsUpdate(callBack: (plotProps: PlotlyProps) =&gt; void): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="502" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-52" value="+ closeSettingsModal(): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="528" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-53" value="+ changeModalWindow(modal: JSX.Element): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="554" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-54" value="+ rollback(): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="580" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-55" value="+ changeCurveScale(plotIndex: number, scaleFactor: number, curveName: string): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="606" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-56" value="+ getChartTitle(xValue: number): string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="632" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-57" value="+ сhangeSubplots(status: &#39;add&#39; | &#39;remove&#39;, index: number): ChartSettings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="658" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-58" value="+ сhangeCurve( property: &#39;visibility&#39;, plotIndex: number, tag: ChartDataTag, value: any) : ChartSettings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="684" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-59" value="+ changeAdSettings(type: charDataType, tag: ChartDataTag, value: boolean): ChartSettings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="710" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-60" value="- _copyState(settings: ChartSettings): ChartSettings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry y="736" width="546" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
