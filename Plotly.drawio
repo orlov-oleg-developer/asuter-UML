@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T06:10:51.223Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="3BT82UB_AvR9ZbT-B8dl" version="22.0.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-07T06:17:25.930Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tfp1q0W9mJY77-UWWuhO" version="22.0.8" type="github" pages="4">
   <diagram name="Plotly" id="S_bzS8s4k4nJKGlNznGW">
     <mxGraphModel dx="3585" dy="2288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -586,7 +586,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VOhN88B2DxwKwmZtsoRk" name="BASE">
-    <mxGraphModel dx="1195" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="604" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -701,6 +701,44 @@
         </mxCell>
         <mxCell id="t6ZbOCOdv8a1IRL4MAbz-60" value="- _copyState(settings: ChartSettings): ChartSettings" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-30">
           <mxGeometry y="736" width="546" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-67" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;" edge="1" parent="1" source="t6ZbOCOdv8a1IRL4MAbz-62" target="t6ZbOCOdv8a1IRL4MAbz-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-62" value="TrackChartConfigurator" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="376" y="1132" width="448" height="268" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-63" value="- _singleTracks: tSingleTrack[]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="26" width="448" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-68" value="- _oddDirection: boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="52" width="448" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-69" value="+ onChangeCurrentRoad: (index: number) =&gt; void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="78" width="448" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-70" value="+ onChangeCategory: (categoryId: number, direction: &#39;forward&#39; | &#39;backward&#39;) =&gt; void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="104" width="448" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-71" value="- _onSetDefaultSettings: () =&gt; void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="130" width="448" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-64" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="156" width="448" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-65" value="+ constructor(props: ConstructorProps): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="164" width="448" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-66" value="+ settingsToPlot( settings: ChartSettings, ): PlotlyProps" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="190" width="448" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-72" value="+ closeTrackModalL(): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="216" width="448" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6ZbOCOdv8a1IRL4MAbz-73" value="+ rollback(): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t6ZbOCOdv8a1IRL4MAbz-62">
+          <mxGeometry y="242" width="448" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
