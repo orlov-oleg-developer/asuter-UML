@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T10:45:20.031Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="gnZDPKK30Y_TZ0I4Z-ik" version="22.1.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-11-20T10:56:14.674Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="xTbuajwa9E59QjAPKM7h" version="22.1.3" type="github" pages="8">
   <diagram name="Konva" id="DzUE49n3u63lBh9tNokg">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -647,7 +647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OWClRJqJObwLINB00i6r" name="Загрузка схемы">
-    <mxGraphModel dx="2634" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3807" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -666,7 +666,7 @@
         <mxCell id="csqP5tnnf1e35kRAuHEP-4" value="ICDCStage.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-740" y="40" width="120" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="csqP5tnnf1e35kRAuHEP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-5" target="csqP5tnnf1e35kRAuHEP-7">
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-5" target="csqP5tnnf1e35kRAuHEP-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-5" value="const newFactory: SchemaSpriteFactory = await SchemaSpriteFactory.createInstance()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -676,16 +676,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-7" value="Promise.all([imgPayload, imgStation, imgStationWoSpt, imgScPoint])" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="290" width="400" height="30" as="geometry" />
+          <mxGeometry x="-330" y="230" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-9" value="Асинхронная подгрузка картинок" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="290" width="220" height="30" as="geometry" />
+          <mxGeometry x="80" y="230" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="csqP5tnnf1e35kRAuHEP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-10" target="csqP5tnnf1e35kRAuHEP-12">
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-10" target="csqP5tnnf1e35kRAuHEP-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-10" value="new SchemaSpriteFactory()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="350" width="280" height="30" as="geometry" />
+          <mxGeometry x="-270" y="290" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-12" target="csqP5tnnf1e35kRAuHEP-14">
           <mxGeometry relative="1" as="geometry" />
@@ -696,22 +696,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-12" value="setSchemaFactory(newFactory)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="410" width="200" height="30" as="geometry" />
+          <mxGeometry x="-780" y="290" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-14" target="csqP5tnnf1e35kRAuHEP-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-14" value="useEffect((), [schemaFactory])" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="500" width="220" height="30" as="geometry" />
+          <mxGeometry x="-790" y="380" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-17" target="csqP5tnnf1e35kRAuHEP-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-17" value="dispatch(getDataFromScheme(blocks, ..., schemaFactory, ...))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-860" y="560" width="360" height="30" as="geometry" />
+          <mxGeometry x="-860" y="440" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-19" value="reverseTractionNetworkReducer.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="510" width="200" height="38" as="geometry" />
+          <mxGeometry x="260" y="390" width="200" height="38" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-20" target="csqP5tnnf1e35kRAuHEP-22">
           <mxGeometry relative="1" as="geometry" />
@@ -722,19 +722,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-20" value="reverseTractionNetworkReducer.ts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="560" width="220" height="30" as="geometry" />
+          <mxGeometry x="250" y="440" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-22" target="csqP5tnnf1e35kRAuHEP-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-22" value="dispatch(rtnSetState(...))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="660" width="220" height="30" as="geometry" />
+          <mxGeometry x="250" y="540" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-26" target="csqP5tnnf1e35kRAuHEP-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-26" value="if (node &amp;amp;&amp;amp; stageSizes.width &amp;amp;&amp;amp; stageSizes.height &amp;amp;&amp;amp; schemaFactory)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-890" y="660" width="420" height="30" as="geometry" />
+          <mxGeometry x="-890" y="540" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-28" target="csqP5tnnf1e35kRAuHEP-32">
           <mxGeometry relative="1" as="geometry" />
@@ -745,13 +745,54 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-28" value="const field = new SchemeStage(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="720" width="220" height="30" as="geometry" />
+          <mxGeometry x="-790" y="600" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-31" value="Blocks.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="30" y="670" width="80" height="38" as="geometry" />
+          <mxGeometry x="640" y="550" width="80" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="csqP5tnnf1e35kRAuHEP-32" target="iPVpUIiFeFwxKsrik8aj-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csqP5tnnf1e35kRAuHEP-32" value="this.drawLayer()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="720" width="140" height="30" as="geometry" />
+          <mxGeometry x="610" y="600" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iPVpUIiFeFwxKsrik8aj-1" target="iPVpUIiFeFwxKsrik8aj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-5" value="constructor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iPVpUIiFeFwxKsrik8aj-4">
+          <mxGeometry x="0.0635" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-1" value="const layer = new SchemaLayer(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="660" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iPVpUIiFeFwxKsrik8aj-3" target="iPVpUIiFeFwxKsrik8aj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-3" value="this.createSchemaDto()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="750" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iPVpUIiFeFwxKsrik8aj-6" target="iPVpUIiFeFwxKsrik8aj-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-6" value="this.spriteFactory.createSchema(this.m as any, this);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="820" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-8" value="Создание схемы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="820" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-10" value="factorySchemas.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="166" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-14" value="ICDCStage.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="490" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-16" value="логика по созданию схемы..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="820" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPVpUIiFeFwxKsrik8aj-18" value="factorySchemas.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="770" width="120" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -811,7 +852,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EWc6Ijz0PRusztLm4GKj" name="Таблица расчетов">
-    <mxGraphModel dx="3088" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5239" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
