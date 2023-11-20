@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T05:58:18.154Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="whUr5RuAKLJX8Y34cCZA" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T12:21:52.571Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wtx2uLdsvCPGHgMfIkH3" version="22.1.3" type="github">
   <diagram name="Страница — 1" id="JYjJUCjkkUTlvju-7UiU">
-    <mxGraphModel dx="1793" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,7 +82,7 @@
         <mxCell id="bGg_pVWdfFb6_P9TD3KG-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" parent="1" source="bGg_pVWdfFb6_P9TD3KG-27" target="bGg_pVWdfFb6_P9TD3KG-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGg_pVWdfFb6_P9TD3KG-27" value="redus-toolkit" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="bGg_pVWdfFb6_P9TD3KG-27" value="redux-toolkit" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="208" y="605" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bGg_pVWdfFb6_P9TD3KG-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#dae8fc;" parent="1" source="bGg_pVWdfFb6_P9TD3KG-30" target="bGg_pVWdfFb6_P9TD3KG-27" edge="1">
