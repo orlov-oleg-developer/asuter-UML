@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T10:53:36.436Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="p9yw5KSo9lLWu-bLw4cx" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T10:55:50.437Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7QXWcyZYy3vnzDzrsoP9" version="22.1.5" type="github">
   <diagram name="Страница — 1" id="VJD6JgEHWSqEKlqEP3wv">
-    <mxGraphModel dx="887" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="19" dy="31" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,6 +52,9 @@
         </mxCell>
         <mxCell id="SvgV_56rTTklij22YndR-22" value="Скриншотное тестирование" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="570" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SvgV_56rTTklij22YndR-24" value="Тестирование запросов на сервер&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="530" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
