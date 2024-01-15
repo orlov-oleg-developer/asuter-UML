@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T13:23:40.034Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pM2s5az1YQykg1CWBvSA" version="22.1.18" type="github">
-  <diagram name="Провода" id="9ix1DV9uNshWTJQ2-RFP">
+<mxfile host="app.diagrams.net" modified="2024-01-15T13:39:02.916Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="eqBImXnNPcLJzPuFodlM" version="22.1.18" type="github" pages="2">
+  <diagram name="Удаление провода" id="9ix1DV9uNshWTJQ2-RFP">
     <mxGraphModel dx="2487" dy="1288" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -108,6 +108,14 @@
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-49" value="this.group.visible(false);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-554" y="570" width="148" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-51" target="2_Owt2D0Y6Xb2MZBWKSP-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-66" value="Логика отмены действия" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#009900;" vertex="1" connectable="0" parent="2_Owt2D0Y6Xb2MZBWKSP-65">
+          <mxGeometry x="-0.1474" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-51" value="this.enableViewPosition(false)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-575" y="654" width="190" height="35" as="geometry" />
         </mxCell>
@@ -119,6 +127,65 @@
         </mxCell>
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-56" value="this.deleteWire(subject);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="624" y="263" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-64" target="2_Owt2D0Y6Xb2MZBWKSP-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-64" value="this.routePoints.parent.setRedo([]);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-605" y="770" width="250" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-67" target="2_Owt2D0Y6Xb2MZBWKSP-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-67" value="this.routePoints.parent.addUndo(setRecreateWire(this));" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-642" y="849" width="324" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-69" value="AcNetworkStage.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="797" width="172" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-70" target="2_Owt2D0Y6Xb2MZBWKSP-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-70" value="const dataWire = wire.getModel();" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="849" width="212" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-72" value="&amp;nbsp; return () =&amp;gt; { &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;wire.routePoints.parent.addInWireInList(dataWire);&lt;br&gt;&amp;nbsp; }" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1023" y="914" width="306" height="49" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Восстановление провода" id="tk-u76SJ59c4OEUD6Bp-">
+    <mxGraphModel dx="3190" dy="1658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ixVKgck0-6eYC3YbtfQT-0" />
+        <mxCell id="ixVKgck0-6eYC3YbtfQT-1" parent="ixVKgck0-6eYC3YbtfQT-0" />
+        <mxCell id="ixVKgck0-6eYC3YbtfQT-3" value="AcNetworkStage.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ixVKgck0-6eYC3YbtfQT-1">
+          <mxGeometry x="-548" y="-169" width="136" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="nxwpENH-MKVVQv4mK-P1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ixVKgck0-6eYC3YbtfQT-1" source="ixVKgck0-6eYC3YbtfQT-5" target="nxwpENH-MKVVQv4mK-P1-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixVKgck0-6eYC3YbtfQT-5" value="wire.routePoints.parent.addInWireInList(dataWire);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ixVKgck0-6eYC3YbtfQT-1">
+          <mxGeometry x="-627" y="-104" width="294" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixVKgck0-6eYC3YbtfQT-10" value="&lt;b&gt;&amp;nbsp; Восстановление провода&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" vertex="1" parent="ixVKgck0-6eYC3YbtfQT-1">
+          <mxGeometry x="-559.5" y="-213" width="153" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qQ98OKygjjy3VeZGW7PP-0" value="StageWindow.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ixVKgck0-6eYC3YbtfQT-1">
+          <mxGeometry x="-156" y="-169" width="136" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Vzs8WnRllqQPEuOOTcrk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ixVKgck0-6eYC3YbtfQT-1" source="nxwpENH-MKVVQv4mK-P1-0" target="Vzs8WnRllqQPEuOOTcrk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nxwpENH-MKVVQv4mK-P1-0" value="&amp;nbsp; field.registerAddInWireInList((value: AlternateWireAndRail) =&amp;gt; { &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;dispatch(acNetworksRedactorAddWireInList([value]));&lt;br&gt;&amp;nbsp; &amp;nbsp;});" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ixVKgck0-6eYC3YbtfQT-1">
+          <mxGeometry x="-266" y="-116.5" width="356" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Vzs8WnRllqQPEuOOTcrk-0" value="alternateNetworkReducer.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ixVKgck0-6eYC3YbtfQT-1">
+          <mxGeometry x="246" y="-169" width="172" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Vzs8WnRllqQPEuOOTcrk-1" value="&amp;nbsp; addedWires: [...state.redactorState.addedWires, ...action.payload],&lt;br&gt;&amp;nbsp; redactorWire: action.payload.pop()," style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ixVKgck0-6eYC3YbtfQT-1">
+          <mxGeometry x="154" y="-116.5" width="371" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
