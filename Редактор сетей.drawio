@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T13:01:57.300Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="k58yAraSI2WZ9vSPr4Ip" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-15T13:14:02.517Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="trzQY8I4AdPWG5jlkVS7" version="22.1.18" type="github">
   <diagram name="Провода" id="9ix1DV9uNshWTJQ2-RFP">
-    <mxGraphModel dx="2593" dy="1344" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="1155" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,6 +40,15 @@
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-31" target="2_Owt2D0Y6Xb2MZBWKSP-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-31" target="2_Owt2D0Y6Xb2MZBWKSP-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-75" y="174" />
+              <mxPoint x="-282" y="174" />
+              <mxPoint x="-282" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-31" value="&amp;nbsp; field.registerDeleteInWireInList((value: string) =&amp;gt; { &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;dispatch(acNetworksRedactorDeleteWireInList(value)); &lt;br&gt;&amp;nbsp; });" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-263" y="39.5" width="356" height="55" as="geometry" />
         </mxCell>
@@ -48,6 +57,53 @@
         </mxCell>
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-34" value="&amp;nbsp; addedWires: state.redactorState.addedWires.filter(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(item) =&amp;gt; item.id !== id&lt;br&gt;&amp;nbsp; )," style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="175" y="39.5" width="294" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-36" target="2_Owt2D0Y6Xb2MZBWKSP-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-36" value="useEffect((), [addedWires])" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="122" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-37" value="условия не должны отработать" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="213" y="176" width="218" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-39" target="2_Owt2D0Y6Xb2MZBWKSP-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-46" value="notify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2_Owt2D0Y6Xb2MZBWKSP-43">
+          <mxGeometry x="-0.0678" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-39" value="this.routePoints.notify(&lt;br&gt;this.routePoints.parent, Cause.disposed, this);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-658" y="253" width="356" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-42" target="2_Owt2D0Y6Xb2MZBWKSP-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-42" value="this.deleteWire(subject);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="361" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-44" target="2_Owt2D0Y6Xb2MZBWKSP-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-44" value="this.listWirePoint = this.listWirePoint.filter((item) =&amp;gt; item !== subject);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-668" y="420" width="376" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-47" target="2_Owt2D0Y6Xb2MZBWKSP-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-47" value="if (this.selectedWire === subject) { this.selectedWire = undefined; }" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-668" y="485" width="376" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-49" target="2_Owt2D0Y6Xb2MZBWKSP-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-49" value="this.group.visible(false);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-554" y="614" width="148" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-51" value="this.enableViewPosition(false)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-575" y="698" width="190" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
