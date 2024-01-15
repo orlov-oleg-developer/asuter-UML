@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T13:22:45.692Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="R0NLP7ywtM3GskD2gRrv" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-15T13:23:40.034Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pM2s5az1YQykg1CWBvSA" version="22.1.18" type="github">
   <diagram name="Провода" id="9ix1DV9uNshWTJQ2-RFP">
     <mxGraphModel dx="2487" dy="1288" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-31" target="2_Owt2D0Y6Xb2MZBWKSP-39">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-96" y="170" />
-              <mxPoint x="-480" y="170" />
+              <mxPoint x="-96" y="125" />
+              <mxPoint x="-480" y="125" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -54,6 +54,13 @@
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-33" value="alternateNetworkReducer.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="236" y="-13" width="172" height="38" as="geometry" />
         </mxCell>
+        <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-34" target="2_Owt2D0Y6Xb2MZBWKSP-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-34" value="&amp;nbsp; addedWires: state.redactorState.addedWires.filter(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(item) =&amp;gt; item.id !== id&lt;br&gt;&amp;nbsp; )," style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="175" y="39.5" width="294" height="55" as="geometry" />
         </mxCell>
@@ -61,10 +68,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-36" value="useEffect((), [addedWires])" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="212" y="122" width="220" height="30" as="geometry" />
+          <mxGeometry x="-206" y="153" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-37" value="условия не должны отработать" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="213" y="176" width="218" height="31" as="geometry" />
+          <mxGeometry x="-205" y="207" width="218" height="31" as="geometry" />
         </mxCell>
         <mxCell id="2_Owt2D0Y6Xb2MZBWKSP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_Owt2D0Y6Xb2MZBWKSP-39" target="2_Owt2D0Y6Xb2MZBWKSP-56">
           <mxGeometry relative="1" as="geometry" />
