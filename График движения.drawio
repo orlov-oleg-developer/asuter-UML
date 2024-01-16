@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T08:53:23.981Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="DGGlLv0EtOptHzRNsLhE" version="22.1.18" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-01-16T08:54:33.137Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Z7_ZjyqTLNJVA-PLpBJF" version="22.1.18" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2665,7 +2665,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cy6VvmhxF0ZM3gIl_JzA" name="Время отправления и прибытия">
-    <mxGraphModel dx="2189" dy="921" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2504" dy="1086" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2777,16 +2777,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W6Vd2lE7EfrKmJjZsnR--25" value="this.parent.notify(this.parent, Cause.waitValidate, this)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="2879" width="340" height="30" as="geometry" />
+          <mxGeometry x="-320" y="2239" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W6Vd2lE7EfrKmJjZsnR--26" value="this.updateComponent &amp;amp;&amp;amp; this.updateComponent()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="2947" width="340" height="30" as="geometry" />
+          <mxGeometry x="-320" y="2307" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W6Vd2lE7EfrKmJjZsnR--29" value="RouteStage.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="620" y="2827" width="120" height="38" as="geometry" />
+          <mxGeometry x="147" y="2187" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="W6Vd2lE7EfrKmJjZsnR--30" value="this.validateRoute(subject as Route)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="565" y="2879" width="230" height="30" as="geometry" />
+          <mxGeometry x="92" y="2239" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W6Vd2lE7EfrKmJjZsnR--32" value="Span.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1001" y="786" width="120" height="38" as="geometry" />
@@ -2944,6 +2944,9 @@
         </mxCell>
         <mxCell id="2-N0W1X7QvAoGMXjR6Oh-1" value="Перемещает спаны к выбранному" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="380" y="803" width="214" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="2-N0W1X7QvAoGMXjR6Oh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2-N0W1X7QvAoGMXjR6Oh-2" target="W6Vd2lE7EfrKmJjZsnR--25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2-N0W1X7QvAoGMXjR6Oh-2" value="this.toRightEdge()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="262" y="2103" width="118" height="30" as="geometry" />
