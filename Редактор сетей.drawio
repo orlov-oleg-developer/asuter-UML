@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T08:12:32.857Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="dAJ7Uzu4shcJVuR0SCd7" version="22.1.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-01-18T11:38:25.631Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="FcOvrp4uXuzKs-X5p21-" version="22.1.18" type="github" pages="4">
   <diagram id="Dn7dqpmF6mSncXrwK8MI" name="Схема компонентов">
     <mxGraphModel dx="1197" dy="819" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,7 +241,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wpHBu03TLu2FVvM1WGO2" name="Перемещение провода">
-    <mxGraphModel dx="3112" dy="2207" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4785" dy="3088" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -351,6 +351,9 @@
         </mxCell>
         <mxCell id="aeHPhifCf9QvXwRNkwQz-1" value="onChangeWirePosition(...)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="787" y="-922" width="182" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aeHPhifCf9QvXwRNkwQz-7" value="Смена информации о координатах на сцене" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1864" y="-681" width="280" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
