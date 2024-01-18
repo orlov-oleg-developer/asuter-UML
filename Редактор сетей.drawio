@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T07:31:55.288Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="oJdNv4fpu-duaHWcPnMd" version="22.1.18" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-18T07:39:27.248Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ASq1rI70ezO_bW0n_3DV" version="22.1.18" type="github" pages="3">
   <diagram name="Удаление провода" id="9ix1DV9uNshWTJQ2-RFP">
     <mxGraphModel dx="3668" dy="1910" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,7 +213,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wpHBu03TLu2FVvM1WGO2" name="Перемещение провода">
-    <mxGraphModel dx="2395" dy="1829" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4068" dy="2710" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,37 +275,94 @@
         <mxCell id="vV3Cxvkn6PPeNDj8073b-1" value="Изменение&amp;nbsp;horizontalPosition и&amp;nbsp;heightPosition" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="156" y="-777" width="280" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="vV3Cxvkn6PPeNDj8073b-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vV3Cxvkn6PPeNDj8073b-4" target="vV3Cxvkn6PPeNDj8073b-7">
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vV3Cxvkn6PPeNDj8073b-4" target="jmL33sJHO7H6Gt8D5GWE-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vV3Cxvkn6PPeNDj8073b-9" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vV3Cxvkn6PPeNDj8073b-8">
-          <mxGeometry x="-0.6825" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-50" value="isChangeFromMenu = false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jmL33sJHO7H6Gt8D5GWE-49">
+          <mxGeometry x="-0.533" y="-3" relative="1" as="geometry">
+            <mxPoint y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vV3Cxvkn6PPeNDj8073b-4" value="stage &amp;amp;&amp;amp; routePoints &amp;amp;&amp;amp; routePoints.selectedWire &amp;amp;&amp;amp; isChangeFromMenu" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-298" y="-679" width="309" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="vV3Cxvkn6PPeNDj8073b-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vV3Cxvkn6PPeNDj8073b-7" target="vV3Cxvkn6PPeNDj8073b-12">
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-1" value="RightMenu.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-1086" width="136" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-2" value="&lt;b&gt;&amp;nbsp; Через меню&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="834.5" y="-1130" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jmL33sJHO7H6Gt8D5GWE-4" target="jmL33sJHO7H6Gt8D5GWE-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vV3Cxvkn6PPeNDj8073b-7" value="const wire = routePoints.selectedWire" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-451" y="-606" width="227" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="vV3Cxvkn6PPeNDj8073b-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vV3Cxvkn6PPeNDj8073b-10" target="vV3Cxvkn6PPeNDj8073b-15">
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jmL33sJHO7H6Gt8D5GWE-4" target="jmL33sJHO7H6Gt8D5GWE-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vV3Cxvkn6PPeNDj8073b-10" value="wire.changeWirePositionData(...)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-451" y="-489" width="227" height="32" as="geometry" />
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-4" value="&amp;nbsp; batch(() =&amp;gt; { &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if (!edit) dispatch(acNetworkRedactorChangeFromRightMenu(true)); &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;dispatch(acNetworksRedactorAddParam(fieldName, +value.toFixed(3)));&lt;br&gt;&amp;nbsp; });" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-1030" width="446" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="vV3Cxvkn6PPeNDj8073b-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vV3Cxvkn6PPeNDj8073b-12" target="vV3Cxvkn6PPeNDj8073b-10">
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-28" value="Логика по сворачиванию полей ввода" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="737" y="-925" width="280" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-30" value="alternateNetworkReducer.ts" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1227" y="-1086" width="194" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-31" value="Изменение&amp;nbsp;horizontalPosition и&amp;nbsp;heightPosition" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1184" y="-1012" width="280" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="jmL33sJHO7H6Gt8D5GWE-39" source="jmL33sJHO7H6Gt8D5GWE-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1355" y="-915" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1324" y="-878" />
+              <mxPoint x="1799" y="-878" />
+              <mxPoint x="1799" y="-863" />
+              <mxPoint x="1935" y="-863" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-35" value="useEffect(..., [ horizontalPosition,&amp;nbsp;heightPosition ])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jmL33sJHO7H6Gt8D5GWE-34">
+          <mxGeometry x="-0.0525" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jmL33sJHO7H6Gt8D5GWE-39" target="jmL33sJHO7H6Gt8D5GWE-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vV3Cxvkn6PPeNDj8073b-12" value="Смена позиций объектов на сцене" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-477.5" y="-550" width="280" height="31" as="geometry" />
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-37" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jmL33sJHO7H6Gt8D5GWE-36">
+          <mxGeometry x="-0.6825" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vV3Cxvkn6PPeNDj8073b-15" value="dispatch(acNetworkRedactorChangeFromRightMenu(false));" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-512" y="-425" width="349" height="32" as="geometry" />
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-39" value="stage &amp;amp;&amp;amp; routePoints &amp;amp;&amp;amp; routePoints.selectedWire &amp;amp;&amp;amp; isChangeFromMenu" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="-848" width="309" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jmL33sJHO7H6Gt8D5GWE-41" target="jmL33sJHO7H6Gt8D5GWE-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-41" value="const wire = routePoints.selectedWire" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1627" y="-775" width="227" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jmL33sJHO7H6Gt8D5GWE-43" target="jmL33sJHO7H6Gt8D5GWE-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-43" value="wire.changeWirePositionData(...)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1627" y="-658" width="227" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jmL33sJHO7H6Gt8D5GWE-45" target="jmL33sJHO7H6Gt8D5GWE-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-45" value="Смена позиций объектов на сцене" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1600.5" y="-719" width="280" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-46" value="dispatch(acNetworkRedactorChangeFromRightMenu(false));" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1566" y="-594" width="349" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-47" value="StageWindow.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="-916" width="136" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="jmL33sJHO7H6Gt8D5GWE-48" value="Ничего не происходит" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-283.5" y="-584" width="280" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
