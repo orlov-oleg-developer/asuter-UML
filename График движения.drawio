@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T12:33:53.623Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="HaD7SXN5CHH1tNuCJsS0" version="22.1.21" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-01-19T12:34:20.044Z" agent="Mozilla/5.0 (X11; Linux x86_64; Chromium GOST) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="fxNjIyZiyKKzoXoHuypq" version="22.1.21" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Konva">
     <mxGraphModel dx="1434" dy="755" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -939,7 +939,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CqUQJFkqP1_rSqp53F9I" name="Routes (нитки)">
-    <mxGraphModel dx="2125" dy="887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2793" dy="1239" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1686,32 +1686,35 @@
         <mxCell id="XOk5dNegOTfSI1tWovoS-8" value="RouteLayout.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-617" y="3882" width="119" height="38" as="geometry" />
         </mxCell>
+        <mxCell id="XOk5dNegOTfSI1tWovoS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOk5dNegOTfSI1tWovoS-9" target="XOk5dNegOTfSI1tWovoS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XOk5dNegOTfSI1tWovoS-9" value="route.setActualFirstStation(departStationsSet.find((station) =&amp;gt; station.coordinate === value))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-824" y="3938" width="533" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XOk5dNegOTfSI1tWovoS-10" value="Route.tsx" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-14" y="3882" width="119" height="38" as="geometry" />
+          <mxGeometry x="-124" y="3882" width="119" height="38" as="geometry" />
         </mxCell>
         <mxCell id="XOk5dNegOTfSI1tWovoS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOk5dNegOTfSI1tWovoS-11" target="XOk5dNegOTfSI1tWovoS-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XOk5dNegOTfSI1tWovoS-11" value="let curSpan = this.firstSpan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="3938" width="169" height="30" as="geometry" />
+          <mxGeometry x="-150" y="3938" width="169" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XOk5dNegOTfSI1tWovoS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOk5dNegOTfSI1tWovoS-14" target="XOk5dNegOTfSI1tWovoS-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XOk5dNegOTfSI1tWovoS-14" value="let curSpan = this.firstSpan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="4007" width="169" height="30" as="geometry" />
+          <mxGeometry x="-150" y="4007" width="169" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XOk5dNegOTfSI1tWovoS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOk5dNegOTfSI1tWovoS-18" target="XOk5dNegOTfSI1tWovoS-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XOk5dNegOTfSI1tWovoS-18" value="this.actualFirstSpan = curSpan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="4065" width="189" height="30" as="geometry" />
+          <mxGeometry x="-160" y="4065" width="189" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XOk5dNegOTfSI1tWovoS-21" value="Перемещение круга, текста с массой поезда и текста с номером поезда" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="4142" width="269" height="30" as="geometry" />
+          <mxGeometry x="-200" y="4142" width="269" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
